@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+.site-header {
+    background: black;
+    padding-right: 100px;
+    font-size: 20px; 
+}
+
+.heading-container {
+    font-size: 100px;
+    font-weight: 500;
+    color: blue;
+    opacity: 0%;
+}
+
+
+.title-name  {
+color: white;
+padding-right: 50px;
+}
+
+.container-fluid {
+    padding-top: 100px;
+}
+
+i {
+    color: red;
+    padding-right: 20px;
+}
+
+.elementor-icon-list-items {
+    size: 50px;
+}
+
+.elementor-icon-list-text {
+    font-size: 20px;
+}
+
+::marker {
+    color: black;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    opacity: 70%;
+}
+
+
+.a {
+  transform: translate(50px, 100px);
+}
+
+.py-2 d-none d-md-inline-block {
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
+    color: green;
+}
+
+.py-2 d-none d-md-inline-block:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.name {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 0px;
+    color: black;
+    margin-inline-end: 50px;
+    text-align: center; 
+    padding-left: 100px;
+}
+
+.sub-name {
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-right: 100px;
+}
+
+
+#nav {
+    font-size: 15px;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 20px;
+    padding: 0;
+    
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    height: 120px;
+}
+
+.menuitem a i {
+    float: right;
+    padding-top: 22px;
+    display: block;
+    color: green;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+.btn {
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    border-color: black;
+    border-width: 0.5mm;
+}
+
+.covid19 h2 {
+    color: #212529;
+    background-color: gray;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+}
+.h1 elementor-heading-title {
+    size: 200px;
+}
+body {
+background-color: #a6a6a6;
+}
+
+.section-heading {
+    color: red;
+}
+
+.h6 .enquires {
+    font-size: large;
+    color: red;
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: whitesmoke;
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: white;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+/* Credit to https://bootsnipp.com/snippets/2eMK5 */

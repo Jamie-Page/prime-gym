@@ -26,8 +26,9 @@ padding-right: 50px;
 }
 
 i {
-    color: red;
-    padding-right: 20px;
+    color: white;
+    padding-left: 20px;
+    
 }
 
 .elementor-icon-list-items {
@@ -138,18 +139,9 @@ body {
     letter-spacing: 2px;
 }
 
-
-.btn {
-    color: white;
-    background-color: red;
-    font-weight: 600;
-    border-color: black;
-    border-width: 0.5mm;
-}
-
 .covid19 h2 {
     color: #212529;
-    background-color: gray;
+    background-color: grey;
     font-size: 80px;
     font-weight: 100;
     text-align: center;
@@ -162,12 +154,12 @@ background-color: #a6a6a6;
 }
 
 .section-heading {
-    color: red;
+    color: white;
 }
 
 .h6 .enquires {
     font-size: large;
-    color: red;
+    color: white;
 }
 
 .context-dark, .bg-gray-dark, .bg-primary {
@@ -221,3 +213,20 @@ ul, ol {
 }
 
 /* Credit to https://bootsnipp.com/snippets/2eMK5 */
+
+.fas fa-phone {
+    size: 5px;
+    color: #a6a6a6;
+}
+
+.col-md-6 {
+    padding-left: 400px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact-list {
+    text-align: center;
+    padding-left: 400px;
+    padding-bottom: 20px;
+}

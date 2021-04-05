@@ -96,3 +96,72 @@
 }
 
 /* Credit to https://epicbootstrap.com/snippets/footer-with-columns */
+
+/*Start of editing CSS */
+
+/* Centered text */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 75px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+/*INDEX TEXT FOR THE 1ST PAGE */
+
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.col-md-6 {
+    color: palegoldenrod;
+    font-size: 50px;
+    padding-bottom: 70px;
+    /*background image on this line */
+    background-repeat: no-repeat;
+    background-position: -120px 10px;
+    }
+    .background-colors-table {
+        background-color: green;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+/*Contact Box*/
+
+/* Container holding the image and the text */
+.container1 {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: grey;
+  border: black;
+  border-width: 10px;
+  border-style: solid;
+  color: white; /*Text color */
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  float: right;
+}
+
+
+.index-column {
+    color: white;
+    font-size: 20px;
+}
+
+.form-label {
+    font-size: 15px; 
+}

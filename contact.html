@@ -1,147 +1,150 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-        integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>My First Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <style>
-</style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            overflow: hidden;
+            background-color: black; /*Header Color*/
+            padding: 20px 10px;
+        }
+
+        .header a {
+            float: left;
+            color: white; /*Header options colors */
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 25px;
+            border-radius: 4px
+        }
+
+        .header a.logo {
+            font-size: 45px;
+            font-weight: bold;
+            color: white; /*Prime Gym color */
+        }
+
+        .header a:hover {
+            background-color: white;
+            color: red;
+        }
+
+        .header a.active {
+            background-color: green; /*button color outside */
+            color: white; /*inside button color*/
+        }
+
+        .header-right {
+            float: right;
+        }
+
+        @media screen and (max-width: 1100px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+
+            .header-right {
+                float: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <header class="site-header sticky-top py-1">
-        <nav class="container d-flex flex-column flex-md-row justify-content-between">
-            <h1 class="title-name">Prime Gym</h1>
-            </a>
-            <a class="py-2 d-none d-md-inline-block" href="index.html">Home</a>
-            <a class="py-2 d-none d-md-inline-block" href="the-gym.html">The Gym</a>
-            <a class="py-2 d-none d-md-inline-block" href="suppliments.html">Suppliments</a>
-            <a class="py-2 d-none d-md-inline-block" href="covid19.html">COVID-19</a>
-            <a class="py-2 d-none d-md-inline-block" href="contact.html">Contact</a>
-            <a class="py-2 d-none d-md-inline-block" href="join-now.html">Join Now!</a>
-        </nav>
-    </header>
-    <section class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 bg-color-personal-info section-column hero-image">
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="section-heading uppercase">
-                            <h1 class="elementor-heading-title elementor-size-default">Contact <i class="fas fa-phone"></i></h1>
-                            Need to contact us?
-                        </h3>
-                    </div>
-                </div>
-                <div class="gym-description">
-                    <div class="key">
-                        <p>We've got you covered. Get in touch with us with our social medias below or fill out the form
-                            with what you want and need and we will get back you straight away.
-                        </p>
-                    </div>
-                    <br>
-                    <h6 class="enquirys">Nature of enquirys*</h6>
-                    <div class="mb-3">
-                        <select class="form-select" aria-label="Default select example" </select>
-                            <option selected>Genral Enquirys</option>
-                            <option value="1">Pricing</option>
-                            <option value="2">Suppliments</option>
-                            <option value="3">Personal Traning</option>
-                            <option value="4">General</option>
-                        </select>
-                        <br>
-                        <form class="row g-3 needs-validation" novalidate>
-                            <div class="col-md-4">
-                                <label for="validationCustom01" class="form-label">First name*</label>
-                                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <label for="validationCustom02" class="form-label">Last name*</label>
-                                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-                                <div class="valid-feedback">
-                                    Looks good!
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="validationCustom03" class="form-label">City</label>
-                                <input type="text" class="form-control" id="validationCustom03" required>
-                                <div class="invalid-feedback">
-                                    Please provide a valid city.
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message*</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                    <label class="form-check-label" for="invalidCheck">
-                                        Agree to terms and conditions
-                                    </label>
-                                    <div class="invalid-feedback">
-                                        You must agree before submitting.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary" type="submit">Submit form</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+    <header>
+        <div class="header">
+            <a href="#default" class="logo">Prime Gym</a>
+            <div class="header-right">
+                <a class="active" href="#home">Home</a>
+                <a href="index.html">The Gym</a>
+                <a href="suppliments.html">Suppliments</a>
+                <a href="covid19.html">Covid-19</a>
+                <a href="contact.html">Contact</a>
+                <a href="join-now.html">Join Now!</a>
             </div>
         </div>
+    </header>
+    <section>
+        <img class="image" src="https://prod-ne-cdn-media.puregym.com/media/799118/page_banner_whats_inside_tablet-2x.png?quality=80&mode=pad&width=1800">
+         <!--Pure Gym image-->
     </section>
-    </header>
-    <footer class="section footer-classic context-dark bg-image" style="background:  #000000;">
-        <div class="container">
-            <div class="row row-30">
-                <div class="col-md-4 col-m-5">
-                    <!-- Rights-->
-                </div>
-            </div>
-            <div class="col-md-4">
-                <h5>Contacts</h5>
-                <dl class="contact-list">
-                    <dt>Address:</dt>
-                    <dd>37 Grosvenor Road,
-                        Lincolnshire,
-                        Sleaford,
-                        NG34 0NN
-                    </dd>
-                </dl>
-                <dl class="contact-list">
-                    <dt>Email:</dt>
-                    <dd><a href="mailto:#">PrimeGym@Outlook.com</a></dd>
-                </dl>
-                <dl class="contact-list">
-                    <dt>Phones:</dt>
-                    <dd><a href="tel:#">01529 241666</a> <span>or</span> <a href="tel:#">079404 76321</a></dd>
-                    <p class="rights"><span>© </span><span class="copyright-year">2020</span><span>
-                        </span><span>Company</span><span> - </span><span>All Rights Reserved.</span></p>
-                </dl>
-            </div>
-        </div>
-        </div>
-        <div class="row no-gutters social-container">
-            <div class="col"><a class="social-inner" href="https://en-gb.facebook.com/login/"><span
-                        class="icon mdi mdi-facebook"></span><span>Facebook <i class="fab fa-facebook-f"></i></span></a></div>
-            <div class="col"><a class="social-inner" href="https://www.instagram.com/"><span
-                        class="icon mdi mdi-instagram"></span><span>Instagram <i class="fab fa-instagram"></i></i></span></a></div>
-            <div class="col"><a class="social-inner" href="https://twitter.com/?lang=en-gb"><span
-                        class="icon mdi mdi-twitter"></span><span>Twitter <i class="fab fa-twitter"></i></span></a></div>
-        </div>
-    </footer>
 </body>
-</html>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h5><i class="fa fa-road"></i> ACME CO INC.</h5>
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li><a href="">Product</a></li>
+                            <li><a href="">Benefits</a></li>
+                            <li><a href="">Partners</a></li>
+                            <li><a href="">Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="list-unstyled">
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">Legal Terms</a></li>
+                            <li><a href="">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="nav">
+                    <li class="nav-item"><a href="" class="nav-link pl-0"><i class="fa fa-facebook fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-twitter fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-github fa-lg"></i></a></li>
+                    <li class="nav-item"><a href="" class="nav-link"><i class="fa fa-instagram fa-lg"></i></a></li>
+                </ul>
+                <br>
+            </div>
+            <div class="col-md-2">
+                <h5 class="text-md-right">Contact Us</h5>
+                <hr>
+            </div>
+            <div class="col-md-5">
+                <form>
+                    <fieldset class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                    </fieldset>
+                    <fieldset class="form-group text-xs-right">
+                        <button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- credits: https://www.codeply.com/p/EJd6H4Ejyi -->

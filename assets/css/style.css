@@ -1,232 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-
-
-.site-header {
-    background: black;
-    padding-right: 100px;
-    font-size: 20px; 
+.body {
+    background-color: pink;
 }
 
-.heading-container {
-    font-size: 100px;
-    font-weight: 500;
-    color: blue;
-    opacity: 0%;
+.rounded float-end {
+    max-width: 100%;
+    height: auto;
 }
 
+/*Start of footer */
 
-.title-name  {
-color: white;
-padding-right: 50px;
-}
-
-.container-fluid {
-    padding-top: 100px;
-}
-
-i {
-    color: white;
-    padding-left: 20px;
-    
-}
-
-.elementor-icon-list-items {
-    size: 50px;
-}
-
-.elementor-icon-list-text {
-    font-size: 20px;
-}
-
-::marker {
-    color: black;
-}
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
 
 body {
-    margin: 0;
-    font-family: var(--bs-font-sans-serif);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    background-color: #fff;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
-    opacity: 70%;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
-
-.a {
-  transform: translate(50px, 100px);
-}
-
-.py-2 d-none d-md-inline-block {
-    box-shadow: 0 8px 16px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255);
-    color: green;
-}
-
-.py-2 d-none d-md-inline-block:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-.name {
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 100;
-    font-size: 46px;
-    margin-top: 0px;
-    color: black;
-    margin-inline-end: 50px;
-    text-align: center; 
-    padding-left: 100px;
-}
-
-.sub-name {
-    font-family: 'Orbitron', sans-serif;
-    color: black;
-    margin-bottom: 50px;
-    text-align: center;
-    padding-right: 100px;
-}
-
-
-#nav {
-    font-size: 15px;
-}
-
-.menucontainer {
-    font-size: 0;
-}
-
-#nav li {
-    font-size: 20px;
-    padding: 0;
-    
-}
-
-#nav {
-    margin: 0;
-}
-
-.menuitem {
-    height: 120px;
-    text-align: center;
-    padding: 0;
-}
-
-.menuitem a {
-    width: 100%;
-    text-decoration: none;
-    color: black;
-    height: 120px;
-}
-
-.menuitem a i {
-    float: right;
-    padding-top: 22px;
-    display: block;
-    color: green;
-    font-size: 26px;
-}
-
-.menuitem span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
-.covid19 h2 {
-    color: #212529;
-    background-color: grey;
-    font-size: 80px;
-    font-weight: 100;
-    text-align: center;
-}
-.h1 elementor-heading-title {
-    size: 200px;
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
 }
 body {
-background-color: #a6a6a6;
+  /* Margin bottom by footer height */
+  margin-bottom: 300px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
 }
 
-.section-heading {
-    color: white;
+/* Taller footer on small screens */
+@media (max-width: 567em) {
+    body {
+      margin-bottom: 700px;
+    }
+    .footer {
+      height: 700px;
+    }
 }
 
-.h6 .enquires {
-    font-size: large;
-    color: white;
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
 }
 
-.context-dark, .bg-gray-dark, .bg-primary {
-    color: whitesmoke;
+footer a {
+  color: #999;
+  text-decoration:none;
 }
 
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: #ffffff;
-}
-.nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
 }
 
-.nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-    visibility: visible;
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
 }
 
-ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
-.social-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 23px;
-    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    text-transform: uppercase;
-    color: whitesmoke;
-}
-.social-container .col {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.nav-list li a:before {
-    content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
-    color: white;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: -28px;
-    margin-right: 7px;
-    opacity: 0;
-    visibility: hidden;
-    transition: .22s ease;
-}
-
-/* Credit to https://bootsnipp.com/snippets/2eMK5 */
-
-.fas fa-phone {
-    size: 5px;
-    color: #a6a6a6;
-}
-
-.col-md-6 {
-    padding-left: 400px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.contact-list {
-    text-align: center;
-    padding-left: 400px;
-    padding-bottom: 20px;
-}
+/* Credits: https://www.codeply.com/p/EJd6H4Ejyi */

@@ -103,7 +103,8 @@
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 0%;
+  padding-bottom: 800px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -126,42 +127,89 @@
     background-repeat: no-repeat;
     background-position: -120px 10px;
     }
-    .background-colors-table {
-        background-color: green;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+
 
 /*Contact Box*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
 
-/* Container holding the image and the text */
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
 .container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Contact page image overlay */
+
+.container {
   position: relative;
 }
 
 /* Bottom right text */
 .text-block {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: -130px;
+  right: 70px;
   background-color: grey;
-  border: black;
-  border-width: 10px;
-  border-style: solid;
-  color: white; /*Text color */
-  padding-left: 50px;
+  color: white;
+  padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 50px;
-  text-align: center;
-  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  border-radius: 50px;
 }
 
-
-.index-column {
-    color: white;
-    font-size: 20px;
+.col-xl-12 {
+    text-align: center;
 }
 
-.form-label {
-    font-size: 15px; 
+.row {
+    text-align: center;
+}
+
+/*index html photos */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.hr {
+    color: pink;
+    font-weight: 2px;
 }

@@ -1,13 +1,24 @@
-# prime-gym
-First Project
+# Prime Gym
 
-#Making my first project ever
+Making my first project ever this has been my harderst task by far and most effort taking but i wanted to make Prime Gym visually simple and nothing hard to navigate.
 
-This is my biggest task yet.
+Websites with lots of navigation is sometimes to hard to go through you end up loosing what you are looking for.
 
-#Features 
+# UX 
 
-I had a GYM website in mind but i changed it all last night for a more visual on the eyes.
+View LIVE demo here! https://jamie-page.github.io/prime-gym/
+
+ince this is hosted on GitHub, My database is non-functional. This means the sign up & contact form do not work! However if it was a real live website this would work.
+
+When creating Prime Gym I wanted it to look smart with a single interactive header and a single interactive footer.
+
+# Features 
+
+I have a few features on my page including a Sign up box and a Join now box. However there not live. I got the header and Footer of a website and will credit them later down in the README.
+
+I wanted to create my website but not to be tasking to read and look at thats why there isnt alot of context or information within my website. I wanted to keep the information simple as it is a gym website and not an Wiki Page.
+
+
 
  I have used bootstrap for using my .cols
 

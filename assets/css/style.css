@@ -173,12 +173,13 @@ input[type=submit]:hover {
 /* Bottom right text */
 .text-block {
   position: absolute;
-  bottom: -130px;
-  right: 70px;
+  width: 80%;
+  bottom: -150px;
+  right: 130px;
   background-color: grey;
   color: white;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
   align-items: center;
@@ -212,4 +213,48 @@ input[type=submit]:hover {
 .hr {
     color: pink;
     font-weight: 2px;
+}
+
+
+/*Suppliments CSS */
+
+
+.text-block1 h1 {
+    font-size: 25px;
+}
+
+
+.text-block1 {
+  position: absolute;
+  bottom: 300px;
+  right: 50px;
+  left: 30px;
+  background-color: white;
+  color: grey;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  border-radius: 50px;
+  float: left;
+}
+
+/*COVID19 CSS */
+
+.text-block2 {
+     position: absolute;
+  bottom: -100px;
+  right: 50px;
+  left: 30px;
+  background-color: white;
+  color: grey;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  align-items: center;
+  float: left;
+
 }

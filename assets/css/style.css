@@ -195,20 +195,10 @@ input[type=submit]:hover {
 }
 
 /*index html photos */
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 25%;
-  padding: 5px;
+.img {
+    width: 30%;
 }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 .hr {
     color: pink;

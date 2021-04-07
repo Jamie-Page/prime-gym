@@ -1,99 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <title>Prime Gym</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .header {
-            overflow: hidden;
-            background-color: black; /*Header Color*/
-            padding: 20px 10px;
-        }
-
-        .header a {
-            float: left;
-            color: white; /*Header options colors */
-            text-align: center;
-            padding: 12px;
-            text-decoration: none;
-            font-size: 20px;
-            line-height: 25px;
-            border-radius: 4px
-        }
-
-        .header a.logo {
-            font-size: 45px;
-            font-weight: bold;
-            color: white; /*Prime Gym color */
-        }
-
-        .header a:hover {
-            background-color: white;
-            color: red;
-        }
-
-        .header a.active {
-            background-color: green; /*button color outside */
-            color: white; /*inside button color*/
-        }
-
-        .header-right {
-            float: right;
-        }
-
-        @media screen and (max-width: 1100px) {
-            .header a {
-                float: none;
-                display: block;
-                text-align: left;
-            }
-
-            .header-right {
-                float: none;
-            }
-        }
-    </style>
 </head>
-
 <body>
+    <!-- Navbar -->
     <header>
-        <div class="header">
-            <a href="index.html" class="logo">Prime Gym</a>
-            <div class="header-right">
-                <a class="active" href="index.html">Home</a>
-                <a href="the-gym.html">The Gym</a>
-                <a href="suppliments.html">Suppliments</a>
-                <a href="covid19.html">Covid-19</a>
-                <a href="contact.html">Contact</a>
-                <a href="join-now.html">Join Now!</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+                        <a class="navbar-brand" href="index.html">
+                            PRIME GYM
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto menu-list">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="gym.html">The Gym</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="suppliments.html">Suppliments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link current" href="covid19.html">COVID-19</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="join-now.html">Join Now!</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="banner">
+        <div class="banner-content banner-content-sub">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-uppercase">COVID-19</h1>
+                    </div>
                 </div>
-                </header>
-                <section>
-                    <img class="image" src="https://www.westminster.ac.uk/sites/default/public-files/styles/panel_image_1_2_768px_/public/general-images/regent-street-gym-equipment.jpg?itok=ji20fmkf" width="100%">
-                    <div class="text-block2">
-                        <div class="container2">
-                            <h1 style="text-align: center;">COVID 19 STATEMENT</h1>
-                            <p>Prime Gym will be opening their doors to the public with effect from 12th April 2021. The government is clear
+            </div>
+        </div>
+    </section>
+
+
+
+  
+    <section class="bg-light pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="mt-4">Whats happening during COVID-19?</h3>
+                    <p class="mt-4">
+                        Here at Prime Gym, We are continually to try to make the best choices to make for YOU to be safe while the gym is closed. We have the highest level of hygine and cleanlesnt.
+                     </p>
+
+                    <h3 class="mt-5">
+                        COVID RULES
+                    </h3>
+                    <p class="mt-3">
+                        Prime Gym will be opening their doors to the public with effect from 12th April 2021. The government is clear
                                 that no one should be exposed to unnecessary risk during the Covid-19 pandemic. It is our moral and legal
                                 obligation to
                                 comply with guidelines set out by the UK Government in conjunction with UKActive, The sport and
@@ -108,8 +97,7 @@
                                 chose to use our facility.
                                 Expect to see plenty of visual aids on display reminding you of the expectations.
                                 Preventative measurements. We are coming to the end of it as people are having there vacines so we are hoping that these rules will not be a permanent fix.
-                            </p>
-                            <ol>
+                                ol>
                                 <li>The Gym has been deep cleaned prior to opening its doors to the public by a proffesinol cleaning
                                     team getting all nooks and cranny.</li>
                                 <br>
@@ -148,49 +136,147 @@
                                     volume
                                     contact surfaces. </li>
                             </ol>
-                        </div>
-            </div>
-            </div>
-        </section>
-</body>
+                    </p>
 
-    <footer class="footer"  background="#a8a8a8">
-    <body>
-    <div class="footer-clean">
-        <footer>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="the-gym.html">The Gym</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4 col-md-3 item">
-                        <h3>About</h3>
-                        <ul>
-                            <li><a href="join-now.html">Join Now</a></li>
-                            <li><a href="covid19.html">Covid 19</a></li>
-                            <li><a href="suppliments.html">Suppliments</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 item social"><a href="https://www.facebook.com/" target="_blank"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/?lang=en-gb" target="_blank"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/l/en-gb/" target="_blank"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/" target="_blank"><i class="icon ion-social-instagram"></i></a>
-                        <p class="copyright">Prime Gym © 2021</p>
+                    <h4 class="text-danger mt-5">
+                        EVERYTHING YOU NEED FOR A SAFE AND GREAT WORKOUT
+                    </h4>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="join">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Join Now?</h3>
+                    <p>Join now and recive your first <strike>10%</strike> 20% off your monthly bill.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="join-btn">
+                        <a href="join-now.html" class="btn btn-light">Read More</a>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-center">
+                        <h4>QUCIK LINKS</h4>
+                        <div class="f-border"></div>
+                        <ul class="links-footer">
+                            <li>
+                                <a href="index.html">
+                                    <i class="fa fa-angle-double-right"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="gym.html">
+                                    <i class="fa fa-angle-double-right"></i>
+                                    The Gym
+                                </a>
+                            </li>
+                            <li>
+                                <a href="suppliments.html">
+                                    <i class="fa fa-angle-double-right"></i>
+                                    Suppliments
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-center">
+                        <h4>QUCIK LINKS</h4>
+                        <div class="f-border"></div>
+                        <ul class="links-footer">
+                            <li>
+                                <a href="covid19.html">
+                                    <i class="fa fa-angle-double-right"></i>
+                                    COVID-19
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.html">
+                                    <i class="fa fa-angle-double-right"></i>
+                                    Contact
+                                </a>
+                            </li>
+                            <li>
+                                <a href="join-now.html">
+                                    <i class="fa fa-angle-double-right"></i>
+                                    Join Now!
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h4>CONTACT US</h4>
+                    <div class="f-border"></div>
+                    <ul class="f_details">
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            37 Grosvenor Road, Lincolnshire,  Sleaford, NG34 0NN
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope-o small-icon"></i>
+                            <a href="mailto:PrimeGym@Outlook.com">
+                                PrimeGym@Outlook.com
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:01529241666">
+                                01529 241666
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="social-footer list-inline">
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class=" fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class=" fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="">
+                                <i class=" fa fa-youtube"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrights text-center">
+        <p class="text-light m-0 p-2">
+            © Copyright 2021. All Rights Reserved.
+        </p>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
-
-<!-- Credit to https://epicbootstrap.com/snippets/footer-with-columns -->
-</footer>
 
 
-<!-- credits: https://www.codeply.com/p/EJd6H4Ejyi -->
+
+
+
+</body></html>

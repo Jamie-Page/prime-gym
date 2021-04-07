@@ -1,250 +1,357 @@
-.body {
-    background-color: pink;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+    font-size: 16px;
+    line-height: 25px;
+    color: #444444;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.rounded float-end {
-    max-width: 100%;
-    height: auto;
+h1, h2, h3, h4, h5 {
+    color: #221e1e;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 
-/*Start of footer */
-
-.footer-clean {
-  padding:50px 0;
-  background-color: #a8a8a8;
-  color:#4b4c4d;
+.form-control:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
 }
 
-.footer-clean h3 {
-  margin-top:0;
-  margin-bottom:12px;
-  font-weight:bold;
-  font-size:16px;
+.btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
 }
 
-.footer-clean ul {
-  padding:0;
-  list-style:none;
-  line-height:1.6;
-  font-size:14px;
-  margin-bottom:0;
+.btn-medium {
+    font-weight: 500 !important;
 }
 
-.footer-clean ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.8;
+
+header {
+    background: #252626;
+    padding: 10px 0px;
 }
 
-.footer-clean ul a:hover {
-  opacity:1;
+
+.menu {
+    background: #252626 !important;
+    margin: 0px;
+    padding: 0px;
 }
 
-.footer-clean .item.social {
-  text-align:right;
+    .menu .navbar-brand {
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+
+    .menu a {
+        padding: 8px 17px !important;
+        font-weight: 500;
+        color: white !important;
+        text-transform: uppercase;
+        font-size: 15px;
+        margin: 0px 10px;
+    }
+
+        .menu a:hover {
+            color: #eeeeee !important;
+        }
+
+.current {
+    background: #f44336;
+}
+/**/
+.title2 {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
-@media (max-width:767px) {
-  .footer-clean .item {
-    text-align:center;
-    padding-bottom:20px;
-  }
-}
+    .title2 h2 {
+        font-size: 42px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        color: #222222;
+    }
 
-@media (max-width: 768px) {
-  .footer-clean .item.social {
-    text-align:center;
-  }
-}
+        .title2 h2::before, .title2 h2::after {
+            content: '';
+            width: 50px;
+            height: 2px;
+            background: #f44336;
+            display: inline-block;
+        }
 
-.footer-clean .item.social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
-  margin-left:10px;
-  margin-top:22px;
-  color:inherit;
-  opacity:0.75;
-}
+        .title2 h2::before {
+            margin: 0 15px 10px 0;
+        }
 
-.footer-clean .item.social > a:hover {
-  opacity:0.9;
-}
+        .title2 h2::after {
+            margin: 0 0 10px 15px;
+        }
 
-@media (max-width:991px) {
-  .footer-clean .item.social > a {
-    margin-top:40px;
-  }
-}
-
-@media (max-width:767px) {
-  .footer-clean .item.social > a {
-    margin-top:10px;
-  }
-}
-
-.footer-clean .copyright {
-  margin-top:14px;
-  margin-bottom:0;
-  font-size:13px;
-  opacity:0.6;
-}
-
-/* Credit to https://epicbootstrap.com/snippets/footer-with-columns */
-
-/*Start of editing CSS */
-
-/* Centered text */
-
-.centered {
-  position: absolute;
-  top: 0%;
-  padding-bottom: 800px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 75px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} 
-
-/*INDEX TEXT FOR THE 1ST PAGE */
-
-.row {
-    padding-top: 20px;
-    padding-bottom: 20px
-}
-
-.col-md-6 {
-    color: palegoldenrod;
-    font-size: 50px;
-    padding-bottom: 70px;
-    /*background image on this line */
-    background-repeat: no-repeat;
-    background-position: -120px 10px;
+    .title2 p {
+        margin: 15px 0 0 0;
     }
 
 
-/*Contact Box*/
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%;
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+form {
+    border: 1px solid #d7d7d7;
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+/**/
+
+.banner {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    width: 100% !important;
+    background: url(../images/bg.jpg);
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
+.header-sub {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative;
 }
 
-/* Add a background color and some padding around the form */
-.container1 {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-/* Contact page image overlay */
-
-.container {
-  position: relative;
-}
-
-/* Bottom right text */
-.text-block {
-  position: absolute;
-  width: 80%;
-  bottom: -150px;
-  right: 130px;
-  background-color: grey;
-  color: white;
-  padding-left: 20px;
-  padding-right: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  align-items: center;
-  border-radius: 50px;
-}
-
-.col-xl-12 {
+.banner-content {
+    background: rgba(0,0,0,.62);
+    padding: 220px 0px;
     text-align: center;
 }
 
-.row {
+.banner-content-sub {
+    padding: 50px 0px;
+}
+
+.banner-content h1 {
+    font-size: 54px;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+
+.banner-content h2 {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 29px;
+    margin-bottom: 37px;
+    font-weight: 400;
+}
+
+.button-style {
+    background: #f44336;
+    border-radius: 0;
+    font-size: 17px;
+    color: #fff;
+    padding: 10px 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+    .button-style:hover {
+        color: white;
+        opacity: 0.9;
+    }
+
+/**/
+.story-div {
+    background: #232732;
+    color: #fff;
+}
+
+.bg-images {
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    padding-top: 450px;
+}
+
+.story {
+    padding: 80px;
+}
+
+    .story h2 {
+        font-size: 36px;
+        color: #fff;
+        margin-bottom: 26px;
+        display: inline-block;
+        background: rgba(70,73,84,.7803921568627451);
+        padding: 11px 32px;
+    }
+
+    .story p {
+        color: #fff;
+    }
+/**/
+.join {
+    background: #146db4;
+    padding: 15px 0;
+}
+
+    .join h3 {
+        color: #fff;
+    }
+
+    .join p {
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+.join-btn {
+    text-align: right;
+    margin-top: 13px;
+}
+
+    .join-btn a {
+        font-size: 17px;
+        background: #fff !important;
+        border: 1px solid #fff;
+        border-radius: 0;
+        padding: 10px 20px;
+    }
+
+        .join-btn a:hover {
+            opacity: 0.9;
+        }
+
+
+/**/
+footer {
+    background: #202122;
+    padding: 60px 0 40px 0;
+}
+
+    footer h4 {
+        color: #f0f0f0;
+        font-size: 16px;
+    }
+
+.social-footer a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 100%;
+    color: #222;
     text-align: center;
+    line-height: 30px;
 }
 
-/*index html photos */
-.img {
-    width: 30%;
+    .social-footer a:hover {
+        background: #f44336;
+        color: #fff;
+    }
+
+
+
+.links-footer a:hover {
+    color: #b2b6bb;
 }
 
-
-.hr {
-    color: pink;
-    font-weight: 2px;
+footer ul li {
+    margin-bottom: 4px;
 }
 
-
-/*Suppliments CSS */
-
-
-.text-block1 h1 {
-    font-size: 25px;
+footer p {
+    font-size: 14px;
+    color: #eee;
 }
 
-
-.text-block1 {
-  position: absolute;
-  bottom: 300px;
-  right: 50px;
-  left: 30px;
-  background-color: white;
-  color: grey;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  align-items: center;
-  border-radius: 50px;
-  float: left;
+footer a {
+    color: #eee;
+    text-decoration: none;
 }
 
-/*COVID19 CSS */
+    footer a:hover {
+        text-decoration: none;
+        color: #dbdbdb;
+    }
 
-.text-block2 {
-     position: absolute;
-  bottom: -100px;
-  right: 50px;
-  left: 30px;
-  background-color: white;
-  color: grey;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 25px;
-  align-items: center;
-  float: left;
+footer ul {
+    font-size: 14px;
+    color: #eee;
+    list-style: none;
+    padding-left: 0;
+}
 
+.f_details {
+    position: relative;
+}
+
+    .f_details li {
+        padding-left: 25px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .f_details i {
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 20px !important;
+    }
+
+    .f_details .small-icon {
+        font-size: 17px !important;
+        top: 3px !important;
+    }
+
+.f-border {
+    border: 1px solid #f44336;
+    width: 55px;
+    margin-bottom: 25px;
+}
+
+.copyrights {
+    background: #151516;
+    padding: 10px 0;
+}
+
+@media(max-width:991px) {
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.98)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    }
+
+    .navbar-collapse {
+        padding-top: 20px;
+    }
+}
+
+@media(max-width:767px) {
+    .story {
+        padding: 24px 0px;
+    }
+
+    footer h4 {
+        margin-top: 30px;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+
+    .banner-content h1 {
+        font-size: 43px;
+    }
+
+    .title2 h2::before, .title2 h2::after {
+        display: none;
+    }
+
+    .banner-content {
+        padding: 70px 0px;
+    }
+
+    .title2 h2 {
+        font-size: 30px;
+    }
 }

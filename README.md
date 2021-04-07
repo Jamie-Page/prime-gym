@@ -20,7 +20,7 @@ I wanted to create my website but not to be tasking to read and look at thats wh
 
 
 
- I have used bootstrap for using my .cols
+ I have used bootstrap for using my .cols to get the proper look for mobile. I have images on my laptop of a preview but im not sure how to do it at this time. 
 
 The-Gym Images
 
@@ -34,3 +34,5 @@ intra-workout BCAA a whey/mass protein shake post workout and even a healthy, ne
   bars from reputable brands including; Mars, NXT Nutrition, Barebells and Lenny & Larry’s."
 
   This has been used from new image gym however i have changed some parts from it.
+
+  

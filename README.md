@@ -35,4 +35,6 @@ intra-workout BCAA a whey/mass protein shake post workout and even a healthy, ne
 
   This has been used from new image gym however i have changed some parts from it.
 
+  My work has deleted.Redoing
+
   

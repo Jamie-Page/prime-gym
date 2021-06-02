@@ -6,17 +6,18 @@ Websites with lots of navigation is sometimes to hard to go through you end up l
 
 # UX 
 
-View LIVE demo here! https://jamie-page.github.io/prime-gym/
+This website is for people who love the gym and who have a passion making there body and mind fitter, And for the casuals who enjoy the social
+side of it.
 
-ince this is hosted on GitHub, My database is non-functional. This means the sign up & contact form do not work! However if it was a real live website this would work.
-
-When creating Prime Gym I wanted it to look smart with a single interactive header and a single interactive footer.
+The website is made from 6 diffrent pages all with diffrent context.
 
 # Features 
 
 I have a few features on my page including a Sign up box and a Join now box. However there not live. I got the header and Footer of a website and will credit them later down in the README.
 
 I wanted to create my website but not to be tasking to read and look at thats why there isnt alot of context or information within my website. I wanted to keep the information simple as it is a gym website and not an Wiki Page.
+
+
 
 
 
@@ -51,4 +52,16 @@ I also tested the site on many devices on the "Inspect"
 
 I used my personal phone Iphone 12 Pro to see if this works No faults.
 
+# Technology used 
+
+For this project i used a few diffrent technologys to complete this.
+
+ *HTML
+Basic language to lay out the pages and basic structure.
+
+ *CSS
+Used to style the website indepth.
+
+* Bootstrap 5.0
+Used for the nav bar and the footer to helped massively.
   

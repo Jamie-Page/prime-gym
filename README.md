@@ -35,6 +35,20 @@ intra-workout BCAA a whey/mass protein shake post workout and even a healthy, ne
 
   This has been used from new image gym however i have changed some parts from it.
 
-  My work has deleted.Redoing
+# Testing 
+
+The website was tested through the creation on a few diffrent browsers such as, Chrome, Firefox & Microsoft Edge and opera( A new gaming browser).
+
+I also tested the site on many devices on the "Inspect" 
+
+* Iphone X
+* Iphone 8
+* Iphone 6/7 pro
+* Iphone 5/6
+* Ipad
+* Ipad Pro
+* Samsung devices also worked. 
+
+I used my personal phone Iphone 12 Pro to see if this works No faults.
 
   

@@ -64,4 +64,8 @@ Used to style the website indepth.
 
 * Bootstrap 5.0
 Used for the nav bar and the footer to helped massively.
+
+# WireFrames
+
+Ive got a first mock-up of how I wanted my 
   

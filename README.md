@@ -67,5 +67,8 @@ Used for the nav bar and the footer to helped massively.
 
 # WireFrames
 
-Ive got a first mock-up of how I wanted my 
+Ive got a first mock-up of how I wanted my ![Multi Device Website Mockup](documents/mockup/mock-up1.jpg)
+
+Ive tried to add more mockups but my balsamiq wireframes is not working.
+
   

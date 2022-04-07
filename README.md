@@ -1,6 +1,6 @@
 # Prime Gym
 
-Making my first project ever this has been my harderst task by far and most effort taking but i wanted to make Prime Gym visually simple and nothing hard to navigate.
+Making my first project ever this has been my hardest task by far and most effort taking but i wanted to make Prime Gym visually simple and nothing hard to navigate.
 
 Websites with lots of navigation is sometimes to hard to go through you end up loosing what you are looking for.
 
